@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+
+@font-face{
+    font-family: "umoefont";
+    src: url("./src/assets/myanmarfont.ttf")
+}
+
+@theme {
+  
+    --font-Padauk: "umoefont", "sans-serif";
+  }
