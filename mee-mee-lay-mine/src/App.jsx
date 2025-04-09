@@ -238,13 +238,13 @@ export default function MyanmarHeartExpression() {
 
         {/* Main content */}
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold text-sky-800 mb-2 font-Padauk">ကိုကိုရဲ့ နှလုံးသားမှ စကားလက်ဆောင်</h1>
+          <h1 className="text-xl font-bold text-sky-800 mb-2 font-Padauk">ကိုကိုရဲ့ နှလုံးသားမှ စကားလက်ဆောင်</h1>
           {/* <p className="text-sky-700 italic">Words from Ko Ko's heart</p> */}
         </div>
 
         {/* Myanmar text display */}
         <div className="bg-sky-50 rounded-lg p-6 mb-8 min-h-[160px] flex flex-col items-center justify-center border border-sky-100 shadow-inner">
-          <p className="text-sky-900 text-2xl text-center mb-4 leading-relaxed font-Padauk">{currentText.myanmar}</p>
+          <p className="text-sky-900 text-md text-center mb-4 leading-relaxed font-Padauk">{currentText.myanmar}</p>
           {/* <p className="text-sky-600 text-sm italic">{currentText.english}</p> */}
         </div>
 
@@ -254,8 +254,8 @@ export default function MyanmarHeartExpression() {
             onClick={addHeart}
             className="flex flex-col items-center justify-center bg-sky-100 hover:bg-sky-200 text-sky-700 p-6 rounded-full border-2 border-sky-300 transition-all hover:shadow-lg transform hover:scale-105 w-32 h-32"
           >
-            <Heart className="mb-2 fill-sky-500" size={36} />
-            <span className="text-sm font-medium font-Padauk">နှလုံးသားပေးမယ်</span>
+            <Heart className="mb-2 fill-sky-500" size={56} />
+            <span className="text-sm font-medium font-Padauk">ချစ်တယ်</span>
             {heartCount > 0 && (
               <span className="mt-2 bg-sky-500 text-white text-xs rounded-full px-2 py-0.5">{heartCount}</span>
             )}
@@ -265,7 +265,7 @@ export default function MyanmarHeartExpression() {
 
       {/* Footer with Myanmar text */}
       <div className="mt-8 text-center text-sky-800">
-        <p className="text-xl font-Padauk">မီးးလေးကို ကိုကို ထာဝရအမြဲချစ်နေမယ်</p>
+        <p className="text-sm font-Padauk">မီးးလေးကို ကိုကို ထာဝရအမြဲချစ်နေမယ်</p>
         {/* <p className="text-sm italic mt-1">Ko Ko will always love Mee Lay</p> */}
       </div>
     </div>
