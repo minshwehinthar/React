@@ -22,10 +22,10 @@ const ProductCard = ({
   }
   return (
     <div className="border border-black p-2 h-full">
-      <img src={image} className="h-32" alt="" />
-      <p className="font-bold line-clamp-1 text-lg">{title}</p>
+      <img src={image} className="h-36" alt="" />
+      <p className="font-bold line-clamp-1 text-lg mt-3">{title}</p>
       {/* <p className="line-clamp-3">{description}</p> */}
-      <p className="text-sm text-gray-400">{stars}</p>
+      <p className="text-sm text-gray-400 my-5">{stars}</p>
       <div className="flex items-end justify-between mt-auto">
         <p className="font-bold">${price}</p>
         <button className="bg-black text-xs text-white p-2">Add Cart</button>
